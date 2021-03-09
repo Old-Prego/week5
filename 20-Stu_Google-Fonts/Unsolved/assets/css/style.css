@@ -6,6 +6,10 @@
   --light: #fffaf7;
 }
 
+body{
+  font-family:'Roboto Mono';
+}
+
 ::selection {
   color: var(--brown);
   background-color: var(--light);
@@ -27,6 +31,10 @@
 .custom-jumbotron {
   background-color: var(--lightteal);
   color: var(--teal);
+}
+
+.custom-jumbotron h1{
+  font-family:"Bebas Neue";
 }
 
 .custom-btn {

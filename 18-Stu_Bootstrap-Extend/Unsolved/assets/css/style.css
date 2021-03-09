@@ -6,5 +6,22 @@
   --light: #fffaf7;
 }
 
+.custom-navbar a {
+  color:red;
+}
+
+.custom-navbar a:hover {
+  color:darkred;
+}
+
+.custom-jumbotron{
+  background-color:rgba(255, 0, 0, 0.342)
+}
+
+.custom-btn{
+  background-color:darkred;
+  color:white;
+}
+
 /* Add your custom class style definitions here */
 /* HINT: Apply CSS variables using `var(--brown)` syntax as your property value */

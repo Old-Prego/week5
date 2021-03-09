@@ -31,6 +31,10 @@ formEl.on('submit', handleFormSubmit);
 
 // Add Autocomplete widget here
 //
-
+$(function(){
+  $("skill-name").autocomplete({
+    source: ["Writing","Math","Science","Programming","Engineering","Art"]
+  });
+})
 // Add Datepicker widget here
 //
