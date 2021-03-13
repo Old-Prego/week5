@@ -22,3 +22,10 @@ if(weekNum % 2) {
 }
 
 $("#4a").text(takeOut + ", because it's currently week " + weekNum);
+
+$("#button").click(function() {
+  $("form").dialog({
+    appendTo: '#dialog',
+    title: "Add Project"
+  });
+});
